@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
     <title>Centro Pokemon</title>
 </head>
 <body>
@@ -16,9 +18,57 @@
             <div class="pokemon__picks">
                 
                     
-                <figure>
-                    <img src="./assest/Torren_Miara_Town_Map.gif" class="map__pic">
-                </figure>
+                <div class="centropokemon">
+                    <figure class="centro__img">
+                        <img src="./assest/joy_n_audino_by_kiralb-d7ho8kn.png" class="chica__img">
+                    </figure>
+                    <div class="datos">
+                        <div class="datos__wrapper">
+
+                            <h1 class="header__centro">Bienvenido al centro pokemon, que pokemon desea curar?</h1>
+                            <select id="filter">
+                                <option value="" disable selected>Elige el pokemon</option>
+                                <option value="LOW_TO_HIGH">Charizard</option>
+                                <option value="HIGH_TO_LOW">Pikachu</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+                                <option value="Rating">Blastoise</option>
+
+    
+                            </select>
+
+                            <button id="contact__submit" class="btn__centro 
+                            click
+                            form__submit" onclick="curar()">Curar</button>
+                            <div class="modal__overlay modal__overlay--loading">
+                                <i class="fas fa-spinner"></i>
+                            </div>
+                            <div class="modal__overlay modal__overlay--success">
+                                Tu pokemon se curo correctamente! Vuelve pronto!
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
