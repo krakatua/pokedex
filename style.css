@@ -295,6 +295,7 @@ h1 {
 .chica__img {
     width: 100%;
     max-width: 500px;
+    animation: wave 2000ms infinite backwards;
 }
 
 
@@ -373,13 +374,13 @@ h1 {
 
 @keyframes wave {
     0% {
-        transform: translateX(-10px);
-    }
-    50% {
         transform: translateX(0);
     }
-    100% {
+    50% {
         transform: translateX(-30px);
+    }
+    100% {
+        transform: translateX(0);
     }
 }
 
