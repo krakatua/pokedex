@@ -100,7 +100,7 @@ h1 {
 
 .pokemon__picks {
     transform: translateY(-40px);
-    height: 550px;
+    height: 530px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,14 +127,12 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0 auto;
-    padding:  0 auto;
     
 }
 
 .pokemon__img {
-    width: 70%;
-    margin-top: 10px;
+    width: 90px;
+    height: 80px;
     padding-left: 10px;
 }
 
@@ -147,9 +145,9 @@ h1 {
 .pokemon_wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%
+    width: 100%;
 }
 
 
@@ -231,7 +229,20 @@ h1 {
     .cuadro {
         left: 180px;
     }
+
 }
+
+@media (max-width: 1200px) {
+    .cuadro {
+        left: 100px;
+    }
+
+    .box {
+        width: 70%;
+    }
+}
+
+
 
 .circle {
     width: 100%;
